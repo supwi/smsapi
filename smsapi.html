@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMS Sender</title>
+</head>
+<body>
+    <h2>Send SMS</h2>
+    <form method="post">
+       <label for="from">From:</label>
+        <input type="text" id="from" name="from" placeholder="Sender's phone number" required><br><br>
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" placeholder="Recipient's phone number" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message..." required></textarea><br><br>
+        
+        <input type="submit" value="Send SMS">
+    </form>
+</body>
+</html>
